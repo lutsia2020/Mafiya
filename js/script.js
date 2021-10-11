@@ -4,23 +4,26 @@ const imageIkons = document.querySelector('.programm_ikon');
 const getName = document.querySelector('.name');
 const getNameIkons = document.querySelector('.name_ikon');
 
+
+let WHO ="e";// h(hero)
+
 for (let key in images) {
     let img = document.createElement('img');
     img.setAttribute('data-key', key);
     img.src = 'img/' + key + '.png';
     
-    if(key=='avatar_hero'){
+    if(key.includes("avatar_"+WHO)){
         imageAvatar.append(img);
         getName.textContent = images[key]['name'];
     }
-    if(key=='display_hero') 
+    if(key.includes("display_"+WHO))
         imageWorkTable.append(img);
 
-    if (key.includes("programm_h")){
+    if (key.includes("programm_"+WHO)){
         imageIkons.append(img);
         getNameIkons.textContent = images[key]['name'];
     }
         
    
-}
+};
 
