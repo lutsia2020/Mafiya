@@ -1,0 +1,235 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .work_table_image { 
+         background-image: url(img/work_table.png); 
+         background-position: center;  
+         background-repeat: no-repeat;  
+         background-size: cover;
+         width: 830px;
+         height: 580px;
+         box-shadow: 0 0 25px 10px darkgrey;
+         
+}
+ div {
+     margin-left: auto;
+     margin-right: auto;
+   }
+ 
+.work_table img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 620px;
+    height: 357px;
+    margin-top: -357px;
+    
+  }
+
+ .work_table {
+       position: relative;
+       top:52px;
+       width: 620px;
+       height: 357px;
+       background-position: right; 
+       background-size: cover;
+    
+ }
+ 
+ .work_table_top_tool {
+       width: 620px;
+       height: 15px;
+       background-color:#20202A;
+       color: white;
+       position: relative;
+ }
+ 
+ .work_table_left_tool {
+       width: 37px;
+       height: 226px;
+       background-image: url(img/left_tool_column.png);
+       background-size: cover;
+       float:left;
+       position: relative;
+       top:100px;     
+ }
+ .avatar img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+  }
+
+ .avatar {
+     float:left;
+     position: relative ;
+     top:70px;
+     z-index:1;
+ }
+ 
+
+ .name_status {
+   width: 200px; 
+   height: 40px;
+   background-color:#ADFF28;
+   opacity:0.8;
+   color:black;
+   float:left;
+   position: relative;
+   top:31px;
+   left:-20px;
+   text-align: center;
+   padding-top:3px;
+ }
+ 
+ .programm_ikon img {
+     -o-object-fit: cover;
+     object-fit: cover;
+     width: 55px; 
+     height: 40px;
+     border-radius: 45%;
+     margin: 15px;
+     z-index:1;
+    
+ }
+
+ .programms {
+   margin-top:100px;
+   margin-left:-140px;
+   width: 300px;
+   height:150px;
+   display: flex;
+   flex-wrap: wrap;
+   z-index:1;
+   color:white;
+   
+ }
+ 
+ .programm_ikon {
+    position: relative ; 
+    
+ }
+ 
+ .programm_ikon_2 {
+     width: 55px; 
+     height: 40px;
+     border-radius: 45%;
+     background-color: red;
+     z-index:1;
+     margin: 10px;
+     color:white;
+     background-image: url(../img/programm_2.jpg);
+     background-size: cover;
+     background-position: center;  
+ }
+ 
+ .programm_ikon_3 {
+     width: 55px; 
+     height: 40px;
+     border-radius: 45%;
+     background-color: red;
+     z-index:1;
+     margin: 10px;
+     color:white;
+     background-image: url(../img/programm_3.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .programm_ikon_4 {
+     width: 55px;
+     height: 40px;
+     border-radius: 45%;
+     background-color: red;
+     z-index:1;
+     margin: 10px;
+     color:white;
+     background-image: url(../img/programm_4.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .programm_ikon_5 {
+     width: 55px;
+     height: 40px;
+     border-radius: 45%;
+     background-color: red;
+     z-index:1;
+     margin: 10px;
+     color:white;
+     background-image: url(../img/programm_5.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .programm_ikon_6 {
+     width: 55px;
+     height: 40px;
+     border-radius: 45%;
+     background-color: red;
+     z-index:1;
+     margin: 10px;
+     color:white;
+     background-image: url(../img/programm_6.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ /*подсказка*/
+ .notice{
+     position:absolute;
+     background-color: #FFC3FE;
+     width: 150px;
+     height: 100px;
+     color:black;
+     display:none;
+     font-weight:bold;
+     font-size:14px;
+     margin-top: -60px;
+     margin-left:55px;
+     border-radius: 5%;
+     box-shadow: 0 0 25px 10px black;
+     opacity:0.8;
+ 
+ }
+ .programm_ikon_6:hover .notice{
+     display:block;
+ }
+ 
+ 
+ .message {
+   display: flex;
+   flex-direction: column;
+   height: 80%;
+   width: 40%;
+   float:right;
+   margin-top:-206px;
+   color:black;
+ }
+ 
+ .message_name {
+   width: 85px;
+   height: 18px;
+   padding:3px;
+   color:white;
+   background-color: darkolivegreen;
+   opacity:0.8;
+   font-size:12px;
+   float:right;
+   margin-top:-230px;
+   
+ }
+ 
+ .message_text {
+   height: 80px;
+   background-color: aqua;
+   opacity:0.55;
+   padding:6px;
+   font-size:15px;
+   box-shadow: 0 0 10px 1px aqua;
+   position:relative;
+ }
+ 
