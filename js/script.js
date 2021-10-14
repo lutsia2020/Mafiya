@@ -5,7 +5,7 @@ const getName = document.querySelector('.name');
 const getNameIkons = document.querySelector('.name_ikon');
 
 
-let WHO ="e";// h(hero)
+let WHO ="w";// h(hero) e(evil) w(woker)
 
 for (let key in images) {
     let img = document.createElement('img');

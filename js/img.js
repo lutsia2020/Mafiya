@@ -15,6 +15,14 @@ const images = {
         "name" : 'Рабочий стол',
     },
 
+    "display_evil" : {
+        "name" : 'Рабочий стол',
+    },
+    "display_woker" : {
+        "name" : 'Рабочий стол',
+    },
+
+
     "programm_h_1" : {
         "name" : 'WI-FI',
     },
@@ -39,4 +47,19 @@ const images = {
         "name" : 'Рекомендации',
     },
 
+    "programm_e_1" : {
+        "name" : 'Троян',
+    },
+
+    "programm_e_2" : {
+        "name" : 'Форма',
+    },
+
+    "programm_e_3" : {
+        "name" : 'Почта',
+    },
+
+    "programm_e_4" : {
+        "name" : 'NMAP',
+    },
 }
