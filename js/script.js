@@ -53,7 +53,7 @@ function hoverInfo(event){
 
     getNotice.textContent=images[key]['description'];
     document.querySelector('.notice');
-    event.target.classList.add('openWindow'); 
+    //event.target.classList.add('openWindow'); 
     console.log(key);
 
 
