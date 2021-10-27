@@ -113,93 +113,26 @@ body {
     
  }
  
- .programm_ikon_2 {
-     width: 55px; 
-     height: 40px;
-     border-radius: 45%;
-     background-color: red;
-     z-index:1;
-     margin: 10px;
-     color:white;
-     background-image: url(../img/programm_2.jpg);
-     background-size: cover;
-     background-position: center;  
- }
- 
- .programm_ikon_3 {
-     width: 55px; 
-     height: 40px;
-     border-radius: 45%;
-     background-color: red;
-     z-index:1;
-     margin: 10px;
-     color:white;
-     background-image: url(../img/programm_3.jpg);
-     background-size: cover;
-     background-position: center;
- }
- 
- .programm_ikon_4 {
-     width: 55px;
-     height: 40px;
-     border-radius: 45%;
-     background-color: red;
-     z-index:1;
-     margin: 10px;
-     color:white;
-     background-image: url(../img/programm_4.png);
-     background-size: cover;
-     background-position: center;
- }
- 
- .programm_ikon_5 {
-     width: 55px;
-     height: 40px;
-     border-radius: 45%;
-     background-color: red;
-     z-index:1;
-     margin: 10px;
-     color:white;
-     background-image: url(../img/programm_5.jpg);
-     background-size: cover;
-     background-position: center;
- }
- 
- .programm_ikon_6 {
-     width: 55px;
-     height: 40px;
-     border-radius: 45%;
-     background-color: red;
-     z-index:1;
-     margin: 10px;
-     color:white;
-     background-image: url(../img/programm_6.jpg);
-     background-size: cover;
-     background-position: center;
- }
- 
  /*подсказка*/
  .notice{
      position:absolute;
      background-color: #FFC3FE;
      width: 150px;
-     height: 100px;
+     height: 50px;
      color:black;
-     display:none;
+     /*display:none;*/
      font-weight:bold;
      font-size:14px;
-     margin-top: -60px;
-     margin-left:55px;
+     top: 270px;
+     left:55px;
      border-radius: 5%;
      box-shadow: 0 0 25px 10px black;
      opacity:0.8;
+     z-index:1;
+     padding: 15px;
  
  }
- .programm_ikon_6:hover .notice{
-     display:block;
- }
- 
- 
+
  .message {
    display: flex;
    flex-direction: column;
@@ -233,3 +166,18 @@ body {
    position:relative;
  }
  
+ .name_ikon{
+   color:white;
+ }
+
+ .active {
+  box-shadow: 0 0 6px 1px white;
+ }
+
+ .shadow {
+  box-shadow: 0 0 6px 1px goldenrod;
+ }
+
+ .openWindow {
+   display:block;
+ }

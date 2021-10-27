@@ -25,14 +25,17 @@ const images = {
 
     "programm_h_1" : {
         "name" : 'WI-FI',
+        "description" : 'Обновить пароль от вай-фай',
     },
 
     "programm_h_2" : {
         "name" : 'Антивирусник',
+        "description" : 'Подключить или обновить антивирусник',
     },
 
     "programm_h_3" : {
         "name" : 'OWASP',
+        "description" : 'Сделать что-то с OWASP',
     },
 
     "programm_h_4" : {
