@@ -22,6 +22,9 @@ const images = {
         "name" : 'Рабочий стол',
     },
 
+    "left_tool_column" : {
+        "name" : 'Левая панель инструментов',
+    },
 
     "programm_h_1" : {
         "name" : 'WI-FI',
@@ -29,7 +32,7 @@ const images = {
     },
 
     "programm_h_2" : {
-        "name" : 'Антивирусник',
+        "name" : 'Антивирус',
         "description" : 'Подключить или обновить антивирусник',
     },
 
@@ -52,6 +55,7 @@ const images = {
 
     "programm_e_1" : {
         "name" : 'Троян',
+        "description" : 'Отправить троян программу по почте',
     },
 
     "programm_e_2" : {
