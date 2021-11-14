@@ -1,0 +1,221 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .work_table_image { 
+         background-image: url(img/work_table.png); 
+         background-position: center;  
+         background-repeat: no-repeat;  
+         background-size: cover;
+         width: 830px;
+         height: 580px;
+         box-shadow: 0 0 25px 10px darkgrey;
+         
+}
+ div {
+     margin-left: auto;
+     margin-right: auto;
+   }
+ 
+.work_table img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 620px;
+    height: 357px;
+    z-index:-1;
+    
+  }
+
+ .work_table {
+       position: relative;
+       width: 620px;
+       height: 357px;
+       background-position: right; 
+       background-size: cover;
+       top: 52px;
+ }
+
+ 
+ .work_table_top_tool {
+       width: 620px;
+       height: 15px;
+       background-color:#20202A;
+       color: white;
+       position: relative;
+       top:-385px;
+}
+
+ .work_table_left_tool {
+  background-image: url(img/left_tool_column.png); 
+  width: 37px;
+  height: 226px;
+  float:left;
+  position: relative;
+  top:-280px; 
+  left:-260px;  
+}
+
+ .avatar img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    
+  }
+
+ .avatar {
+     float:left;
+     position: relative ;
+     top:-330px;
+     z-index:1;
+     left:20px;
+ }
+ 
+
+ .name_status {
+   width: 200px; 
+   height: 40px;
+   background-color:#ADFF28;
+   opacity:0.8;
+   color:black;
+   float:left;
+   position: relative;
+   top:-325px;
+   left:-20px;
+   text-align: center;
+   padding-top:3px;
+ }
+ 
+ .programm_ikon img {
+     -o-object-fit: cover;
+     object-fit: cover;
+     width: 55px; 
+     height: 40px;
+     border-radius: 45%;
+     margin: 5px;
+     z-index:1;
+     cursor: pointer;
+     
+     
+    
+ }
+
+ .programm_ikon p {
+  box-shadow:none;
+  margin-top:-3px;
+ }
+
+
+ .programms {
+   margin-top:-330px;
+   display: flex;
+   width: 300px;
+   height:200px;
+   z-index:1;
+   color:white;
+   font-size:13px;
+   text-align: center;
+   margin-left:5px;
+   
+ }
+ 
+ .programm_ikon {
+    position: relative ; 
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction:column;
+    flex-wrap: wrap;
+    top:40px;
+    
+ }
+
+
+ /*подсказка*/
+ .notice {
+    position:absolute;
+    background-color: #FFC3FE;
+    width: 150px;
+    height: 100px;
+    color:black;
+    display:none;
+    font-weight:bold;
+    font-size:13px;
+    margin-top: -60px;
+    left:70px;
+    border-radius: 5%;
+    box-shadow: 0 0 25px 10px black;
+    opacity:0.75;
+    z-index:2;
+
+}
+.notice p {
+  padding: 10px;
+}
+
+.programm_ikon:hover .notice {
+    display:block;
+}
+
+
+ 
+ .message {
+   display: flex;
+   flex-direction: column;
+   height: 80%;
+   width: 40%;
+   float:right;
+   margin-top:-206px;
+   color:black;
+ }
+ 
+ .message_name {
+   width: 85px;
+   height: 18px;
+   padding:3px;
+   color:white;
+   background-color: darkolivegreen;
+   opacity:0.8;
+   font-size:12px;
+   float:right;
+   margin-top:-230px;
+   
+ }
+ 
+ .message_text {
+   height: 80px;
+   background-color: aqua;
+   opacity:0.55;
+   padding:6px;
+   font-size:15px;
+   box-shadow: 0 0 10px 1px aqua;
+   position:relative;
+ }
+ 
+ .name_ikon{
+   color:white;
+   font-size:14px;
+   text-align: center;
+ }
+
+ .programm_ikon img:hover {
+  box-shadow: 0 0 7px 2px white;
+ }
+
+ .programm_ikon img:active {
+  box-shadow: 0 0 7px 2px goldenrod;
+ }
+
+ .window {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    z-index:2;
+   
+ }
