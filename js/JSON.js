@@ -48,11 +48,11 @@ const playerData = [
     }
 ]
 
-  function press_on_ikon(notice) {
-      return `<div class = "window">Hello</div>`,
-      alert ('Вы решились. Вы нажали на' + notice.name + 'Вы сделали следующее:'+notice.discription );
-  }
-  
+ function press_on_ikon(program){
+     return  `<div class = "window">Вы выбрали ${program.name}</div>`;
+}
+
+
   function program (program) {
     return `
     <div class="work_table_top_tool"><h5> Fri 20:25 </h5></div>
@@ -62,12 +62,13 @@ const playerData = [
     ${program.map(function(prog
     ){
       return ` <div class="programm_ikon"> 
-               <img src="${prog.ikon}" onclick="press_on_ikon(${prog})" type="button"> 
+               <img src="${prog.ikon}" onClick="press_on_ikon(${prog})"> 
                <div class="notice">
               <p align="center"> ${prog.discription} </p>
             </div>
                <p>${prog.name}</p></div>`
     }).join('')}
+    
    </div>
   `;
   }
@@ -81,10 +82,12 @@ const playerData = [
             <div class="avatar"><img src="${player.avatar}"> </div>
              <div class="name_status">
                 <span><small>Статyc</small> <br><b class = "name"> ${player.name}</b></span></div> 
-                   
-            
-            ${player.programs ? program (player.programs) : ""}
-        
+                   ${player.programs ? program (player.programs) : ""}
+                   <div class="message_name">СОБОБЩЕНИЕ</div>
+                   <div class="message">
+                      <div class="message_text"><p align="left">  Дорогой <b class ="name">${player.name}</b>, Вам что-то нужно сделать...</p>
+                      </div>
+                   </div>
         </div>
        </div>
     `;
